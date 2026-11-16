@@ -1,0 +1,363 @@
+[
+ {
+  "type": "price",
+  "key": "price:site:полиуретан-ppf",
+  "service": "Полиуретан PPF",
+  "note": "Бронеплёнка, которая защищает от сколов, царапин и реагентов. Самовосстанавливается от тепла.",
+  "price_text": "от 50 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:винил-и-pet",
+  "service": "Винил и PET",
+  "note": "Смена цвета кузова: глянец, мат, сатин, хамелеон, карбон. Заводской цвет остаётся под плёнкой.",
+  "price_text": "от 80 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:тонировка",
+  "service": "Тонировка",
+  "note": "Задняя полусфера, атермальные плёнки на лобовое и боковые, тонировка фар и стоп-сигналов.",
+  "price_text": "от 5 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:оклейка-под-такси",
+  "service": "Оклейка под такси",
+  "note": "ГОСТ: серый + жёлтые полосы, шашки, бренд Яндекс. Плоттерная плёнка Oracal 641. За один день.",
+  "price_text": "от 18 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:кузов-и-покраска",
+  "service": "Кузов и покраска",
+  "note": "Кузовной ремонт, покраска деталей и всего кузова. Стоимость ремонта — после осмотра.",
+  "price_text": "от 10 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:детейлинг",
+  "service": "Детейлинг",
+  "note": "Полировка в 1–3 этапа, керамика, химчистка салона, антихром и расклейка старой плёнки.",
+  "price_text": "от 12 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:зоны-риска-седан",
+  "service": "Зоны риска — седан",
+  "note": "капот, бампер, крылья, фары, зеркала, стойки, 20 см крыши",
+  "price_text": "от 50 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:зоны-риска-кроссовер",
+  "service": "Зоны риска — кроссовер",
+  "note": "",
+  "price_text": "от 70 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:зоны-риска-внедорожник",
+  "service": "Зоны риска — внедорожник",
+  "note": "",
+  "price_text": "от 90 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:полный-кузов-седан",
+  "service": "Полный кузов — седан",
+  "note": "крыша, зеркала и фары включены · 3 дня",
+  "price_text": "от 160 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:полный-кузов-кроссовер",
+  "service": "Полный кузов — кроссовер",
+  "note": "",
+  "price_text": "от 220 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:полный-кузов-внедорожник",
+  "service": "Полный кузов — внедорожник",
+  "note": "",
+  "price_text": "от 280 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:бронеплёнка-на-лобовое-стекло",
+  "service": "Бронеплёнка на лобовое стекло",
+  "note": "",
+  "price_text": "15 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:бронь-фары-прозрачным-полиуретаном",
+  "service": "Бронь фары прозрачным полиуретаном",
+  "note": "",
+  "price_text": "3 500 ₽ / фара",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:полная-оклейка-винилом-седан",
+  "service": "Полная оклейка винилом — седан",
+  "note": "сатин дороже, зависит от плёнки",
+  "price_text": "от 80 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:хамелеон",
+  "service": "Хамелеон",
+  "note": "",
+  "price_text": "от 120 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:крыша-зеркала-винил-пвх",
+  "service": "Крыша + зеркала (винил / ПВХ)",
+  "note": "",
+  "price_text": "15 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:крыша-зеркала-чёрный-глянцевый-полиуретан",
+  "service": "Крыша + зеркала (чёрный глянцевый полиуретан)",
+  "note": "",
+  "price_text": "25 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:крыша-в-чёрный-карбон",
+  "service": "Крыша в чёрный карбон",
+  "note": "",
+  "price_text": "10 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:антихром",
+  "service": "Антихром",
+  "note": "",
+  "price_text": "от 25 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:оклейка-салона",
+  "service": "Оклейка салона",
+  "note": "консоль, монитор и др.",
+  "price_text": "от 2 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:задняя-полусфера",
+  "service": "Задняя полусфера",
+  "note": "",
+  "price_text": "Xpel от 9 000 ₽ · Llumar / 3M от 15 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:задняя-полусфера-2",
+  "service": "Задняя полусфера",
+  "note": "",
+  "price_text": "от 5 000 ₽",
+  "source": "okleykabunker.ru index.html",
+  "needs_review": "Ключ совпал с другой строкой прайса: проверить, к какой услуге относится цена"
+ },
+ {
+  "type": "price",
+  "key": "price:site:атермальная-передняя-полусфера",
+  "service": "Атермальная — передняя полусфера",
+  "note": "",
+  "price_text": "16 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:атермальная-лобовое",
+  "service": "Атермальная — лобовое",
+  "note": "",
+  "price_text": "от 8 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:атермальная-две-боковые",
+  "service": "Атермальная — две боковые",
+  "note": "",
+  "price_text": "8 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:одно-стекло",
+  "service": "Одно стекло",
+  "note": "",
+  "price_text": "1 500 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:заднее-стекло-багажника",
+  "service": "Заднее стекло багажника",
+  "note": "",
+  "price_text": "2 500 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:тонировка-фар",
+  "service": "Тонировка фар",
+  "note": "",
+  "price_text": "4 000 ₽ / фара",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:фотохромная-плёнка-на-фары",
+  "service": "Фотохромная плёнка на фары",
+  "note": "",
+  "price_text": "4 500 ₽ / фара",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:тонировка-стоп-фонарей",
+  "service": "Тонировка стоп-фонарей",
+  "note": "",
+  "price_text": "4 000 ₽ / фонарь",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:solaris-rio-polo-rapid-octavia-optima",
+  "service": "Solaris, Rio, Polo, Rapid, Octavia, Optima",
+  "note": "ГОСТ входит в цену · глянец / мат",
+  "price_text": "18 000 / 20 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:k5-coolray-belgee-arrizo-8-tenet-haval-atlas-jetour",
+  "service": "K5, Coolray, Belgee, Arrizo 8, Tenet, Haval, Atlas, Jetour",
+  "note": "",
+  "price_text": "от 20 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:только-гост-серый-жёлтые-полосы",
+  "service": "Только ГОСТ (серый + жёлтые полосы)",
+  "note": "",
+  "price_text": "4 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:жёлтые-полосы-на-два-борта",
+  "service": "Жёлтые полосы на два борта",
+  "note": "",
+  "price_text": "3 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:бренд-яндекс",
+  "service": "Бренд Яндекс",
+  "note": "",
+  "price_text": "3 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:шашки",
+  "service": "Шашки",
+  "note": "",
+  "price_text": "100 ₽ / шт",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:детали-крыло-дверь-капот-бампер-крыша",
+  "service": "Детали: крыло / дверь / капот / бампер / крыша",
+  "note": "",
+  "price_text": "2 000–3 500 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:полировка-однослойная",
+  "service": "Полировка однослойная",
+  "note": "",
+  "price_text": "15 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:полировка-двухэтапная-трёхэтапная",
+  "service": "Полировка двухэтапная / трёхэтапная",
+  "note": "",
+  "price_text": "25 000 / 35 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:керамика",
+  "service": "Керамика",
+  "note": "",
+  "price_text": "12 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:химчистка-салона-целиком",
+  "service": "Химчистка салона целиком",
+  "note": "",
+  "price_text": "15 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:расклейка-плёнки",
+  "service": "Расклейка плёнки",
+  "note": "до 5 лет / старше 5 лет",
+  "price_text": "15 000 / 20 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:покраска-одной-детали",
+  "service": "Покраска одной детали",
+  "note": "",
+  "price_text": "от 10 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ },
+ {
+  "type": "price",
+  "key": "price:site:покраска-кузова-целиком",
+  "service": "Покраска кузова целиком",
+  "note": "",
+  "price_text": "от 60 000 ₽",
+  "source": "okleykabunker.ru index.html"
+ }
+]
