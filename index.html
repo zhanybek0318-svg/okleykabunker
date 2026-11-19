@@ -1,389 +1,397 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BUNKER — оклейка и тонировка авто в Москве</title>
+<title>BUNKER FILM — автомобильные плёнки PET Vinyl оптом и в розницу</title>
+<meta name="description" content="BUNKER — плёнка PET Vinyl рулонами 1,52 × 17 м. Розница, опт от 4 рулонов, предзаказ от 10. Доставка по России. Установка в студии в Москве.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,800;1,800;1,900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{
-  --navy:#0A1430; --navy-2:#0F1C40; --navy-3:#16254F;
-  --blue:#0297DE; --orange:#FC734D;
-  --text:#EEF2FA; --muted:#9AA6C4; --line:rgba(255,255,255,.09);
-  --r:18px;
-}
+:root{--bg:#070707;--bg2:#0f0f10;--card:#141416;--line:#262629;--txt:#f2f2f2;--mut:#9a9aa0;--acc:#f7a300;--acc2:#ff7a00}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{background:var(--navy);color:var(--text);font-family:Manrope,system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{background:var(--bg);color:var(--txt);font:16px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
-.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
-.serif{font-family:"Playfair Display",Georgia,serif;font-weight:500;letter-spacing:-.01em}
-.mono{font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;font-weight:700;font-size:15px;transition:transform .2s,box-shadow .2s,background .2s;cursor:pointer;border:0}
-.btn-o{background:var(--orange);color:#fff;box-shadow:0 8px 30px rgba(252,115,77,.35)}
-.btn-o:hover{transform:translateY(-2px);box-shadow:0 12px 40px rgba(252,115,77,.5)}
-.btn-g{background:rgba(255,255,255,.06);border:1px solid var(--line);color:var(--text)}
-.btn-g:hover{background:rgba(2,151,222,.15);border-color:var(--blue)}
-
-/* NAV */
-nav{position:sticky;top:0;z-index:50;background:rgba(10,20,48,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-nav .wrap{display:flex;align-items:center;justify-content:space-between;height:66px}
-.logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.14em;font-size:17px}
-.logo i{display:flex;gap:3px}
-.logo i b{width:4px;height:16px;border-radius:2px;background:var(--blue)}
-.logo i b:nth-child(2){background:var(--orange);height:20px;margin-top:-2px}
-.links{display:flex;gap:30px;font-size:14px;color:var(--muted)}
-.links a:hover{color:var(--text)}
-nav .btn{padding:10px 18px;font-size:14px}
-@media(max-width:860px){.links{display:none}}
-
-/* HERO */
-.hero{position:relative;padding:90px 0 0;text-align:center;overflow:hidden}
-.hero h1{font-size:clamp(44px,8vw,96px);line-height:1.02;margin:22px auto 22px;max-width:900px}
-.hero h1 em{font-style:italic;color:#fff;background:linear-gradient(90deg,var(--blue),#7fd3ff 50%,var(--orange));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.hero p.lead{max-width:600px;margin:0 auto 34px;color:var(--muted);font-size:17px}
-.pill{display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.03)}
-.pill .dot{width:7px;height:7px;border-radius:50%;background:var(--orange);box-shadow:0 0 10px var(--orange)}
-.cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
-.rays{position:relative;height:340px;margin-top:40px}
-.rays::before{content:"";position:absolute;inset:0;
-  background:
-   repeating-linear-gradient(90deg,rgba(10,20,48,1) 0 3px,transparent 3px 7px),
-   radial-gradient(60% 120% at 50% 100%,var(--orange) 0%,#e2557a 28%,var(--blue) 55%,transparent 78%);
-  -webkit-mask:linear-gradient(to top,#000 20%,transparent 100%);mask:linear-gradient(to top,#000 20%,transparent 100%);
-  animation:pulse 6s ease-in-out infinite}
-@keyframes pulse{50%{filter:brightness(1.25) saturate(1.15)}}
-.stats{position:absolute;left:0;right:0;bottom:30px;display:flex;justify-content:space-between;text-align:left;padding:0 22px;max-width:1180px;margin:0 auto}
-.stat .n{font-family:"Playfair Display",serif;font-size:clamp(28px,4vw,44px);line-height:1}
-.stat .l{font-size:12px;color:#cfd7ea;margin-top:4px;text-shadow:0 1px 8px #0A1430,0 0 3px #0A1430}.stat .n{text-shadow:0 2px 14px #0A1430}
-.stats .col{display:flex;flex-direction:column;gap:22px}
-.stats .col.r{text-align:right}
-@media(max-width:640px){.hero{padding-top:44px}.rays{height:300px;margin-top:20px}.stats .col{gap:14px}.pill{font-size:10.5px}section{padding:70px 0}.card{padding:24px}}
-
-/* SECTIONS */
-section{padding:100px 0}
-.head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:46px;flex-wrap:wrap}
-.head h2{font-size:clamp(34px,5vw,56px);line-height:1.05;max-width:640px}
-.head h2 em{color:var(--orange)}
-.head p{color:var(--muted);max-width:380px}
-
-/* SERVICES */
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-@media(max-width:960px){.grid{grid-template-columns:1fr 1fr}}
-@media(max-width:600px){.grid{grid-template-columns:1fr}}
-.card{position:relative;background:linear-gradient(180deg,var(--navy-2),var(--navy));border:1px solid var(--line);border-radius:var(--r);padding:28px;overflow:hidden;transition:border-color .25s,transform .25s}
-.card:hover{border-color:rgba(2,151,222,.5);transform:translateY(-3px)}
-.card .ic{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;background:rgba(2,151,222,.12);color:var(--blue);margin-bottom:22px}
-.card.hot{background:linear-gradient(160deg,#ff8a66 0%,var(--orange) 40%,#d9475f 100%);border:0}
-.card.hot .ic{background:rgba(255,255,255,.2);color:#fff}
-.card.hot p,.card.hot .price span{color:rgba(255,255,255,.85)}
-.card h3{font-size:20px;margin-bottom:8px;font-weight:700}
-.card p{color:var(--muted);font-size:14.5px;margin-bottom:22px}
-.card .price{font-family:"Playfair Display",serif;font-size:26px}
-.card .price span{font-family:Manrope,system-ui,sans-serif;font-size:13px;color:var(--muted)}
-.tag{position:absolute;top:22px;right:22px;font-family:"JetBrains Mono";font-size:11px;padding:5px 10px;border-radius:999px;background:rgba(255,255,255,.2);letter-spacing:.06em}
-
-/* PRICE TABS */
-.prices{background:linear-gradient(180deg,var(--navy),var(--navy-2) 50%,var(--navy))}
-.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
-.tab{padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);font:600 14px Manrope;cursor:pointer;transition:.2s}
-.tab.on{background:var(--blue);border-color:var(--blue);color:#fff}
-.tab:not(.on):hover{color:var(--text);border-color:var(--blue)}
-.table{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:rgba(10,20,48,.6)}
-.row{display:flex;justify-content:space-between;gap:20px;padding:18px 24px;border-bottom:1px solid var(--line);font-size:15px}
-.row:last-child{border-bottom:0}
-.row:hover{background:rgba(2,151,222,.06)}
-.row b{font-weight:700;white-space:nowrap;color:#fff}
-.row small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
-.pane{display:none}.pane.on{display:block;animation:fade .35s}
-@keyframes fade{from{opacity:0;transform:translateY(6px)}}
-.note{margin-top:16px;color:var(--muted);font-size:13px}
-
-/* WARRANTY */
-.warr{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-@media(max-width:860px){.warr{grid-template-columns:1fr 1fr}}
-.w{border:1px solid var(--line);border-radius:var(--r);padding:26px;position:relative;overflow:hidden}
-.w .n{font-family:"Playfair Display",serif;font-size:58px;line-height:1;color:var(--blue)}
-.w .n small{font-size:18px;color:var(--muted);font-family:Manrope,system-ui,sans-serif;margin-left:6px}
-.w:nth-child(4) .n{color:var(--orange)}
-.w p{color:var(--muted);font-size:14px;margin-top:10px}
-.w::after{content:"";position:absolute;right:-40px;bottom:-40px;width:120px;height:120px;border-radius:50%;background:radial-gradient(var(--blue),transparent 70%);opacity:.15}
-
-/* STEPS */
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--line)}
-@media(max-width:860px){.steps{grid-template-columns:1fr 1fr}}
-@media(max-width:520px){.steps{grid-template-columns:1fr}}
-.step{padding:30px 24px 10px 0}
-.step .k{font-family:"JetBrains Mono";color:var(--orange);font-size:13px;margin-bottom:14px}
-.step h4{font-size:18px;margin-bottom:6px}
-.step p{color:var(--muted);font-size:14px}
-
-/* FILM */
-.film{border-radius:28px;padding:56px;background:
-  radial-gradient(80% 140% at 100% 0%,rgba(2,151,222,.45),transparent 60%),
-  radial-gradient(60% 120% at 0% 100%,rgba(252,115,77,.35),transparent 60%),var(--navy-2);
-  border:1px solid var(--line);display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
-@media(max-width:860px){.film{grid-template-columns:1fr;padding:34px}}
-.film h2{font-size:clamp(32px,4.5vw,50px);line-height:1.05;margin:14px 0 16px}
-.film p{color:var(--muted);margin-bottom:26px}
-.roll{display:grid;gap:10px}
-.roll div{display:flex;justify-content:space-between;padding:16px 20px;border-radius:14px;background:rgba(10,20,48,.6);border:1px solid var(--line);font-size:15px}
-.roll div span{color:var(--muted)}
-
-/* CONTACT */
-.contact{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-@media(max-width:860px){.contact{grid-template-columns:1fr}}
-.big{border-radius:var(--r);padding:40px;background:linear-gradient(160deg,var(--blue),#0168a8);position:relative;overflow:hidden}
-.big h2{font-size:clamp(34px,4.5vw,52px);line-height:1.05;margin-bottom:16px}
-.big p{color:rgba(255,255,255,.85);margin-bottom:28px}
-.big::after{content:"";position:absolute;inset:auto -10% -60% auto;width:340px;height:340px;border-radius:50%;background:radial-gradient(var(--orange),transparent 65%);opacity:.6}
-.big .btn{position:relative;z-index:1}
-.ch{display:grid;gap:12px}
-.ch a,.ch div.i{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:22px 24px;border-radius:var(--r);border:1px solid var(--line);background:var(--navy-2);transition:.2s}
-.ch a:hover{border-color:var(--orange)}
-.ch .t{font-size:13px;color:var(--muted)}
-.ch .v{font-weight:700;font-size:17px}
-.ch .arr{color:var(--orange);font-size:20px}
-
-footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:13px}
-footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
-
-.fab{position:fixed;right:18px;bottom:18px;z-index:60;width:58px;height:58px;border-radius:50%;background:var(--orange);display:grid;place-items:center;box-shadow:0 10px 30px rgba(252,115,77,.5)}
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}
-.reveal.in{opacity:1;transform:none}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.h{font-family:"Barlow Condensed",sans-serif;font-weight:900;font-style:italic;text-transform:uppercase;letter-spacing:.5px;line-height:.95}
+.acc{color:var(--acc)}
+.grad{background:linear-gradient(90deg,#ffcc4d,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;border-radius:6px;font-weight:600;font-size:15px;transition:.2s;cursor:pointer;border:0}
+.btn-acc{background:linear-gradient(90deg,var(--acc),var(--acc2));color:#111}
+.btn-acc:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.btn-out{border:1px solid var(--acc);color:var(--acc)}
+.btn-out:hover{background:var(--acc);color:#111}
+.tag{display:inline-block;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--acc);font-weight:600;margin-bottom:14px}
+section{padding:90px 0;border-top:1px solid var(--line)}
+.sec-title{font-size:clamp(36px,5vw,58px);margin-bottom:18px}
+.sec-sub{color:var(--mut);max-width:680px;margin-bottom:46px}
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(7,7,7,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-mark{width:38px;height:38px;border:2px solid var(--acc);transform:skew(-12deg);display:grid;place-items:center;font-family:"Barlow Condensed";font-weight:900;color:var(--acc);font-size:22px}
+.logo-txt{font-family:"Barlow Condensed";font-weight:900;font-style:italic;font-size:26px;letter-spacing:1px}
+.logo-txt small{display:block;font-size:10px;letter-spacing:3px;color:var(--mut);font-style:normal;font-weight:600;margin-top:-4px}
+.menu{display:flex;gap:30px;font-size:14px;font-weight:500}
+.menu a{color:#cfcfcf}.menu a:hover{color:var(--acc)}
+.nav-r{display:flex;gap:16px;align-items:center;font-size:14px}
+.nav-r .dl{color:var(--acc);font-weight:600}
+.burger{display:none;background:none;border:0;color:#fff;font-size:28px;cursor:pointer}
+.mob{display:none;flex-direction:column;padding:10px 20px 20px;gap:14px;border-top:1px solid var(--line)}
+.mob.open{display:flex}
+/* hero */
+.hero{position:relative;overflow:hidden;padding:80px 0 60px;border:0;background:radial-gradient(ellipse at 75% 60%,rgba(247,163,0,.18),transparent 55%),var(--bg)}
+.hero::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,transparent 0 80px,rgba(255,255,255,.015) 80px 81px)}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center}
+.crumbs{font-size:13px;color:var(--mut);margin-bottom:22px}.crumbs b{color:var(--acc);font-weight:500}
+.hero h1{font-size:clamp(52px,8vw,104px)}
+.hero h1 .w{color:#fff}
+.hero .lead{font-size:13px;letter-spacing:2px;text-transform:uppercase;margin:18px 0 26px;font-weight:600}
+.feats{display:grid;gap:18px;margin-bottom:34px}
+.feat{display:flex;gap:16px;align-items:flex-start}
+.hex{flex:none;width:58px;height:58px;display:grid;place-items:center;clip-path:polygon(25% 3%,75% 3%,100% 50%,75% 97%,25% 97%,0 50%);background:linear-gradient(var(--acc),var(--acc2));position:relative}
+.hex::after{content:"";position:absolute;inset:2px;clip-path:inherit;background:#111}
+.hex svg{position:relative;z-index:1;width:26px;height:26px;stroke:var(--acc);fill:none;stroke-width:2}
+.feat h3{font-family:"Barlow Condensed";font-weight:800;font-size:22px;text-transform:uppercase;color:var(--acc);line-height:1.1}
+.feat p{color:#c9c9c9;font-size:14px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+.car{width:100%;filter:drop-shadow(0 30px 40px rgba(0,0,0,.8))}
+.stats{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:60px;padding-top:30px;border-top:1px solid rgba(247,163,0,.35)}
+.stat{display:flex;gap:12px;align-items:center}
+.stat svg{width:38px;height:38px;stroke:var(--acc);fill:none;stroke-width:1.6;flex:none}
+.stat b{display:block;font-family:"Barlow Condensed";font-size:26px;font-weight:800;color:var(--acc);line-height:1}
+.stat span{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#ddd;font-weight:600}
+/* categories */
+.cats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cat{position:relative;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:28px;min-height:230px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;transition:.25s}
+.cat:hover{border-color:var(--acc);transform:translateY(-3px)}
+.cat .sw{position:absolute;right:-30px;top:-30px;width:150px;height:150px;border-radius:50%;opacity:.9;filter:blur(1px)}
+.cat h3{font-family:"Barlow Condensed";font-weight:800;font-size:28px;text-transform:uppercase;line-height:1;position:relative}
+.cat p{color:var(--mut);font-size:14px;margin-top:10px;position:relative}
+.cat .go{color:var(--acc);font-weight:700;font-size:14px;letter-spacing:1px;margin-top:20px}
+.badge{position:relative;display:inline-block;font-size:11px;padding:4px 10px;border-radius:20px;background:rgba(247,163,0,.12);color:var(--acc);font-weight:600;margin-bottom:12px;width:max-content}
+.badge.s{background:#222;color:#bbb}
+/* finishes */
+.finish{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:50px}
+.fin{text-align:center;padding:26px 16px;border:1px solid var(--line);border-radius:10px;background:var(--bg2)}
+.fin .chip{width:78px;height:78px;margin:0 auto 16px;border-radius:12px;transform:rotate(-8deg)}
+.fin h3{font-family:"Barlow Condensed";font-weight:800;font-size:24px;text-transform:uppercase}
+.fin p{color:var(--mut);font-size:13px}
+.palette{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.col{border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--card)}
+.col div{height:90px}
+.col span{display:block;padding:10px 12px;font-size:13px;font-weight:500}
+.col small{display:block;color:var(--mut);font-size:11px}
+.note{color:var(--mut);font-size:13px;margin-top:18px}
+/* specs */
+.spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden}
+td{padding:16px 20px;border-bottom:1px solid var(--line);font-size:15px}
+td:first-child{color:var(--mut);width:46%}
+td:last-child{font-weight:600}
+tr:last-child td{border:0}
+.faq details{border:1px solid var(--line);border-radius:10px;margin-bottom:12px;background:var(--card)}
+.faq summary{padding:18px 22px;cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.faq summary::after{content:"+";color:var(--acc);font-size:22px;line-height:1}
+.faq details[open] summary::after{content:"–"}
+.faq p{padding:0 22px 20px;color:#c4c4c4;font-size:15px}
+/* dealer */
+.dealer{background:linear-gradient(120deg,#1a1205,#070707 60%)}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:40px}
+.tier{border:1px solid var(--line);border-radius:10px;padding:30px;background:rgba(20,20,22,.8)}
+.tier.hot{border-color:var(--acc);box-shadow:0 0 40px rgba(247,163,0,.15)}
+.tier b{font-family:"Barlow Condensed";font-size:54px;font-weight:900;font-style:italic;color:var(--acc);line-height:1}
+.tier h3{font-family:"Barlow Condensed";font-size:26px;text-transform:uppercase;margin:8px 0}
+.tier p{color:var(--mut);font-size:14px}
+.who{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:34px}
+.who span{border:1px solid #3a2a0a;background:#160f03;color:#ffd27a;padding:8px 16px;border-radius:30px;font-size:14px}
+/* studio */
+.studio{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.warr{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:26px 0}
+.warr div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.warr b{font-family:"Barlow Condensed";font-size:36px;font-weight:900;font-style:italic;color:var(--acc);line-height:1}
+.warr span{display:block;font-size:13px;color:var(--mut)}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:30px}
+.box li{list-style:none;padding:10px 0;border-bottom:1px solid var(--line);display:flex;gap:10px;font-size:15px}
+.box li:last-child{border:0}.box li::before{content:"▸";color:var(--acc)}
+/* contact form */
+.talk{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+form{display:grid;gap:14px}
+input,select,textarea{width:100%;background:#0d0d0e;border:1px solid var(--line);color:#fff;border-radius:6px;padding:14px 16px;font:inherit;font-size:15px}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--acc)}
+.contacts a,.contacts div{display:flex;gap:14px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line)}
+.contacts svg{width:24px;height:24px;stroke:var(--acc);fill:none;stroke-width:1.8;flex:none}
+.contacts small{display:block;color:var(--mut);font-size:12px}
+/* footer */
+footer{border-top:1px solid var(--line);padding:60px 0 30px;background:#050505}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px}
+footer h4{font-family:"Barlow Condensed";text-transform:uppercase;font-size:18px;margin-bottom:14px;color:var(--acc)}
+footer li{list-style:none;margin-bottom:8px;font-size:14px;color:#bdbdbd}
+footer li a:hover{color:var(--acc)}
+.copy{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);color:#777;font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.float{position:fixed;right:18px;bottom:18px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.float svg{width:30px;height:30px;fill:#fff}
+@media(max-width:960px){
+ .menu,.nav-r .dl{display:none}.burger{display:block}
+ .hero-grid,.spec-grid,.studio,.talk{grid-template-columns:1fr}
+ .stats{grid-template-columns:repeat(2,1fr)}
+ .cats,.tiers{grid-template-columns:1fr 1fr}
+ .finish{grid-template-columns:1fr 1fr}
+ .palette{grid-template-columns:repeat(3,1fr)}
+ .fgrid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+ section{padding:64px 0}
+ .cats,.tiers{grid-template-columns:1fr}
+ .nav-r .btn{padding:10px 14px;font-size:13px}
+ .fgrid{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
 
-<nav>
-  <div class="wrap">
-    <a href="#top" class="logo"><i><b></b><b></b><b></b></i>BUNKER</a>
-    <div class="links">
-      <a href="#services">Услуги</a><a href="#prices">Цены</a><a href="#warranty">Гарантия</a><a href="#film">Плёнка опт</a><a href="#contacts">Контакты</a>
-    </div>
-    <a class="btn btn-o" href="https://wa.me/79309477443" target="_blank" rel="noopener">Записаться</a>
+<header>
+ <div class="wrap nav">
+  <a href="#top" class="logo"><div class="logo-mark">B</div><div class="logo-txt">BUNKER<small>FILM · MOSCOW</small></div></a>
+  <nav class="menu">
+   <a href="#products">Продукция</a>
+   <a href="#color">Цвета</a>
+   <a href="#specs">Характеристики</a>
+   <a href="#studio">Студия</a>
+   <a href="#contacts">Контакты</a>
+  </nav>
+  <div class="nav-r">
+   <a href="#dealer" class="dl">Стать дилером</a>
+   <a href="https://wa.me/79309477443?text=Здравствуйте!%20Интересует%20плёнка%20BUNKER" class="btn btn-acc">Заказать</a>
+   <button class="burger" aria-label="Меню" onclick="document.getElementById('mob').classList.toggle('open')">☰</button>
   </div>
-</nav>
-
-<header class="hero" id="top">
-  <div class="wrap">
-    <span class="pill mono"><span class="dot"></span>Москва · м. Бабушкинская · 10:00–22:00</span>
-    <h1 class="serif">Оклейка, которая <em>держит удар.</em></h1>
-    <p class="lead">Полиуретан PPF, винил, PET и тонировка. Кузовной ремонт, покраска и детейлинг — всё в одной студии, без ножа по ЛКП.</p>
-    <div class="cta-row">
-      <a class="btn btn-o" href="https://wa.me/79309477443" target="_blank" rel="noopener">Рассчитать стоимость →</a>
-      <a class="btn btn-g" href="#prices">Смотреть цены</a>
-    </div>
-  </div>
-  <div class="rays">
-    <div class="stats">
-      <div class="col">
-        <div class="stat"><div class="n">8 лет</div><div class="l">гарантия на полный PPF</div></div>
-        <div class="stat"><div class="n">1 день</div><div class="l">оклейка под такси</div></div>
-      </div>
-      <div class="col r">
-        <div class="stat"><div class="n">5+</div><div class="l">видов плёнки</div></div>
-        <div class="stat"><div class="n">10–22</div><div class="l">ежедневно</div></div>
-      </div>
-    </div>
-  </div>
+ </div>
+ <div class="mob" id="mob" onclick="this.classList.remove('open')">
+  <a href="#products">Продукция</a><a href="#color">Цвета</a><a href="#specs">Характеристики</a><a href="#dealer">Стать дилером</a><a href="#studio">Студия</a><a href="#contacts">Контакты</a>
+ </div>
 </header>
 
-<section id="services">
-  <div class="wrap">
-    <div class="head reveal">
-      <h2 class="serif">Всё для кузова — <em>под одной крышей</em></h2>
-      <p>От защиты новой машины до полного преображения цвета. Работаем с любыми марками: седаны, кроссоверы, внедорожники.</p>
+<!-- HERO -->
+<section class="hero" id="top">
+ <div class="wrap">
+  <div class="hero-grid">
+   <div>
+    <div class="crumbs">Главная › <b>PET Color Film</b></div>
+    <h1 class="h"><span class="grad">BUNKER</span><br><span class="w">PET VINYL</span></h1>
+    <p class="lead"><span class="acc">Цветная плёнка для авто</span> — рулонами по всей России</p>
+    <div class="feats">
+     <div class="feat"><div class="hex"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M7 6v12M17 6v12"/></svg></div><div><h3>Полный рулон</h3><p>1,52 × 17 м — ширина под капот и крышу, длина под оклейку автомобиля целиком.</p></div></div>
+     <div class="feat"><div class="hex"><svg viewBox="0 0 24 24"><path d="M3 7h13l5 5v5H3z"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div><div><h3>Опт и дилерам</h3><p>Розница от 1 рулона, опт от 4, предзаказ от 10. Отгрузка в любой регион России.</p></div></div>
+     <div class="feat"><div class="hex"><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div><div><h3>Проверено в студии</h3><p>Сами клеим эту плёнку в студии BUNKER в Москве. Даём на неё гарантию 3 года.</p></div></div>
     </div>
-    <div class="grid">
-      <div class="card hot reveal">
-        <span class="tag">ХИТ</span>
-        <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/></svg></div>
-        <h3>Полиуретан PPF</h3>
-        <p>Бронеплёнка, которая защищает от сколов, царапин и реагентов. Самовосстанавливается от тепла.</p>
-        <div class="price">от 50 000 ₽ <span>зоны риска</span></div>
-      </div>
-      <div class="card reveal">
-        <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 000 18"/></svg></div>
-        <h3>Винил и PET</h3>
-        <p>Смена цвета кузова: глянец, мат, сатин, хамелеон, карбон. Заводской цвет остаётся под плёнкой.</p>
-        <div class="price">от 80 000 ₽ <span>полная оклейка</span></div>
-      </div>
-      <div class="card reveal">
-        <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M3 12h18"/></svg></div>
-        <h3>Тонировка</h3>
-        <p>Задняя полусфера, атермальные плёнки на лобовое и боковые, тонировка фар и стоп-сигналов.</p>
-        <div class="price">от 5 000 ₽ <span>задняя полусфера</span></div>
-      </div>
-      <div class="card reveal">
-        <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 16l2-6h12l2 6M4 16h16v3H4zM7 10l1.5-4h7L17 10"/></svg></div>
-        <h3>Оклейка под такси</h3>
-        <p>ГОСТ: серый + жёлтые полосы, шашки, бренд Яндекс. Плоттерная плёнка Oracal 641. За один день.</p>
-        <div class="price">от 18 000 ₽ <span>полная</span></div>
-      </div>
-      <div class="card reveal">
-        <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 4l6 6-9 9H5v-6z"/></svg></div>
-        <h3>Кузов и покраска</h3>
-        <p>Кузовной ремонт, покраска деталей и всего кузова. Стоимость ремонта — после осмотра.</p>
-        <div class="price">от 10 000 ₽ <span>деталь</span></div>
-      </div>
-      <div class="card reveal">
-        <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"/></svg></div>
-        <h3>Детейлинг</h3>
-        <p>Полировка в 1–3 этапа, керамика, химчистка салона, антихром и расклейка старой плёнки.</p>
-        <div class="price">от 12 000 ₽ <span>керамика</span></div>
-      </div>
+    <div class="hero-cta">
+     <a href="#talk" class="btn btn-acc">Узнать цену ›</a>
+     <a href="#color" class="btn btn-out">Смотреть цвета</a>
     </div>
+   </div>
+   <div>
+    <svg class="car" viewBox="0 0 600 300" aria-hidden="true">
+     <defs>
+      <linearGradient id="body" x1="0" x2="1"><stop offset="0" stop-color="#2a2a2e"/><stop offset=".5" stop-color="#6b6b72"/><stop offset="1" stop-color="#1c1c1f"/></linearGradient>
+      <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#ff7a00" stop-opacity="0"/><stop offset=".5" stop-color="#ffb000"/><stop offset="1" stop-color="#ff7a00" stop-opacity="0"/></linearGradient>
+      <radialGradient id="glow"><stop offset="0" stop-color="#f7a300" stop-opacity=".55"/><stop offset="1" stop-color="#f7a300" stop-opacity="0"/></radialGradient>
+     </defs>
+     <ellipse cx="300" cy="250" rx="280" ry="30" fill="url(#glow)"/>
+     <path d="M40 200 C40 170 70 160 120 152 L190 110 C220 92 260 84 320 84 C380 84 420 92 460 128 L520 150 C555 158 570 172 570 196 L570 214 L40 214 Z" fill="url(#body)"/>
+     <path d="M205 118 C232 100 266 96 310 96 L318 146 L180 150 Z" fill="#0b0b0c" opacity=".9"/>
+     <path d="M330 96 C380 96 410 104 440 132 L336 146 Z" fill="#0b0b0c" opacity=".9"/>
+     <path d="M60 182 L560 176" stroke="url(#hl)" stroke-width="3"/>
+     <path d="M520 160 L565 168" stroke="#ffb000" stroke-width="5" stroke-linecap="round"/>
+     <circle cx="150" cy="214" r="38" fill="#0a0a0a" stroke="#333" stroke-width="6"/><circle cx="150" cy="214" r="16" fill="#3a3a3e"/>
+     <circle cx="460" cy="214" r="38" fill="#0a0a0a" stroke="#333" stroke-width="6"/><circle cx="460" cy="214" r="16" fill="#3a3a3e"/>
+     <rect x="250" y="20" width="230" height="44" rx="4" fill="#111" stroke="#f7a300"/>
+     <text x="365" y="49" text-anchor="middle" fill="#f7a300" font-family="Barlow Condensed" font-weight="800" font-style="italic" font-size="22">PET VINYL · 1,52 × 17 М</text>
+    </svg>
+   </div>
   </div>
+  <div class="stats">
+   <div class="stat"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="10" rx="2"/><path d="M7 7v10"/></svg><div><b>1,52×17 м</b><span>формат рулона</span></div></div>
+   <div class="stat"><svg viewBox="0 0 24 24"><path d="M3 7l9-4 9 4-9 4z"/><path d="M3 12l9 4 9-4M3 17l9 4 9-4"/></svg><div><b>от 4 шт</b><span>оптовая цена</span></div></div>
+   <div class="stat"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><div><b>от 10 шт</b><span>предзаказ</span></div></div>
+   <div class="stat"><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/></svg><div><b>3 года</b><span>гарантия на винил</span></div></div>
+  </div>
+ </div>
 </section>
 
-<section class="prices" id="prices">
-  <div class="wrap">
-    <div class="head reveal">
-      <h2 class="serif">Прозрачные <em>цены</em></h2>
-      <p>Материал и работа включены. Точная стоимость зависит от модели и плёнки — пришлите фото авто в WhatsApp.</p>
-    </div>
-    <div class="tabs" role="tablist">
-      <button class="tab on" data-t="ppf">PPF</button>
-      <button class="tab" data-t="vinyl">Винил</button>
-      <button class="tab" data-t="tint">Тонировка</button>
-      <button class="tab" data-t="taxi">Такси</button>
-      <button class="tab" data-t="care">Детейлинг и кузов</button>
-    </div>
-
-    <div class="pane on" id="ppf"><div class="table">
-      <div class="row"><div>Зоны риска — седан<small>капот, бампер, крылья, фары, зеркала, стойки, 20 см крыши</small></div><b>от 50 000 ₽</b></div>
-      <div class="row"><div>Зоны риска — кроссовер</div><b>от 70 000 ₽</b></div>
-      <div class="row"><div>Зоны риска — внедорожник</div><b>от 90 000 ₽</b></div>
-      <div class="row"><div>Полный кузов — седан<small>крыша, зеркала и фары включены · 3 дня</small></div><b>от 160 000 ₽</b></div>
-      <div class="row"><div>Полный кузов — кроссовер</div><b>от 220 000 ₽</b></div>
-      <div class="row"><div>Полный кузов — внедорожник</div><b>от 280 000 ₽</b></div>
-      <div class="row"><div>Бронеплёнка на лобовое стекло</div><b>15 000 ₽</b></div>
-      <div class="row"><div>Бронь фары прозрачным полиуретаном</div><b>3 500 ₽ / фара</b></div>
-    </div></div>
-
-    <div class="pane" id="vinyl"><div class="table">
-      <div class="row"><div>Полная оклейка винилом — седан<small>сатин дороже, зависит от плёнки</small></div><b>от 80 000 ₽</b></div>
-      <div class="row"><div>Хамелеон</div><b>от 120 000 ₽</b></div>
-      <div class="row"><div>Крыша + зеркала (винил / ПВХ)</div><b>15 000 ₽</b></div>
-      <div class="row"><div>Крыша + зеркала (чёрный глянцевый полиуретан)</div><b>25 000 ₽</b></div>
-      <div class="row"><div>Крыша в чёрный карбон</div><b>10 000 ₽</b></div>
-      <div class="row"><div>Антихром</div><b>от 25 000 ₽</b></div>
-      <div class="row"><div>Оклейка салона<small>консоль, монитор и др.</small></div><b>от 2 000 ₽</b></div>
-    </div></div>
-
-    <div class="pane" id="tint"><div class="table">
-      <div class="row"><div>Задняя полусфера<small>Xpel от 9 000 ₽ · Llumar / 3M от 15 000 ₽</small></div><b>от 5 000 ₽</b></div>
-      <div class="row"><div>Атермальная — передняя полусфера</div><b>16 000 ₽</b></div>
-      <div class="row"><div>Атермальная — лобовое</div><b>от 8 000 ₽</b></div>
-      <div class="row"><div>Атермальная — две боковые</div><b>8 000 ₽</b></div>
-      <div class="row"><div>Одно стекло</div><b>1 500 ₽</b></div>
-      <div class="row"><div>Заднее стекло багажника</div><b>2 500 ₽</b></div>
-      <div class="row"><div>Тонировка фар</div><b>4 000 ₽ / фара</b></div>
-      <div class="row"><div>Фотохромная плёнка на фары</div><b>4 500 ₽ / фара</b></div>
-      <div class="row"><div>Тонировка стоп-фонарей</div><b>4 000 ₽ / фонарь</b></div>
-    </div></div>
-
-    <div class="pane" id="taxi"><div class="table">
-      <div class="row"><div>Solaris, Rio, Polo, Rapid, Octavia, Optima<small>ГОСТ входит в цену · глянец / мат</small></div><b>18 000 / 20 000 ₽</b></div>
-      <div class="row"><div>K5, Coolray, Belgee, Arrizo 8, Tenet, Haval, Atlas, Jetour</div><b>от 20 000 ₽</b></div>
-      <div class="row"><div>Только ГОСТ (серый + жёлтые полосы)</div><b>4 000 ₽</b></div>
-      <div class="row"><div>Жёлтые полосы на два борта</div><b>3 000 ₽</b></div>
-      <div class="row"><div>Бренд Яндекс</div><b>3 000 ₽</b></div>
-      <div class="row"><div>Шашки</div><b>100 ₽ / шт</b></div>
-      <div class="row"><div>Детали: крыло / дверь / капот / бампер / крыша</div><b>2 000–3 500 ₽</b></div>
-    </div></div>
-
-    <div class="pane" id="care"><div class="table">
-      <div class="row"><div>Полировка однослойная</div><b>15 000 ₽</b></div>
-      <div class="row"><div>Полировка двухэтапная / трёхэтапная</div><b>25 000 / 35 000 ₽</b></div>
-      <div class="row"><div>Керамика</div><b>12 000 ₽</b></div>
-      <div class="row"><div>Химчистка салона целиком</div><b>15 000 ₽</b></div>
-      <div class="row"><div>Расклейка плёнки<small>до 5 лет / старше 5 лет</small></div><b>15 000 / 20 000 ₽</b></div>
-      <div class="row"><div>Покраска одной детали</div><b>от 10 000 ₽</b></div>
-      <div class="row"><div>Покраска кузова целиком</div><b>от 60 000 ₽</b></div>
-      <div class="row"><div>Кузовной ремонт</div><b>после осмотра</b></div>
-    </div></div>
-    <p class="note">Цены ориентировочные. Работаем со своими проверенными плёнками.</p>
+<!-- PRODUCTS -->
+<section id="products">
+ <div class="wrap">
+  <span class="tag">Продукция</span>
+  <h2 class="h sec-title">Выберите <span class="grad">свою плёнку</span></h2>
+  <p class="sec-sub">PET Vinyl продаём рулонами. Остальные плёнки клеим у себя в студии в Москве: можно купить материал, а можно сразу доверить оклейку нам.</p>
+  <div class="cats">
+   <a href="#color" class="cat"><div class="sw" style="background:conic-gradient(#f7a300,#d4145a,#1e3cff,#00c2a8,#f7a300)"></div><div><span class="badge">Продажа рулонами</span><h3>PET Color Vinyl</h3><p>Цветная плёнка для смены цвета кузова: глянец, сатин, мат, хамелеон.</p></div><span class="go">ПОДРОБНЕЕ ›</span></a>
+   <a href="#studio" class="cat"><div class="sw" style="background:radial-gradient(circle at 30% 30%,#fff,#9ad7ff 40%,#1b3a5c)"></div><div><span class="badge s">Установка в студии</span><h3>Полиуретан PPF</h3><p>Самовосстанавливающаяся бронеплёнка от сколов и реагентов. Гарантия до 8 лет.</p></div><span class="go">ПОДРОБНЕЕ ›</span></a>
+   <a href="#studio" class="cat"><div class="sw" style="background:radial-gradient(circle,#2b2b2b,#000)"></div><div><span class="badge s">Установка в студии</span><h3>Тонировка</h3><p>Обычная и атермальная плёнка: Xpel, Llumar, 3M и бюджетные варианты.</p></div><span class="go">ПОДРОБНЕЕ ›</span></a>
+   <a href="#studio" class="cat"><div class="sw" style="background:radial-gradient(circle,#ffe9a8,#f7a300 50%,#3a2500)"></div><div><span class="badge s">Установка в студии</span><h3>Плёнка для фар</h3><p>Бронь прозрачным полиуретаном, тонировка и фотохромная плёнка.</p></div><span class="go">ПОДРОБНЕЕ ›</span></a>
+   <a href="#studio" class="cat"><div class="sw" style="background:repeating-linear-gradient(45deg,#1a1a1a 0 6px,#333 6px 12px)"></div><div><span class="badge s">Установка в студии</span><h3>Карбон</h3><p>Крыша, зеркала, детали салона и экстерьера под карбон.</p></div><span class="go">ПОДРОБНЕЕ ›</span></a>
+   <a href="#studio" class="cat"><div class="sw" style="background:radial-gradient(circle,#555,#111)"></div><div><span class="badge s">Установка в студии</span><h3>Салон и антихром</h3><p>Консоль, монитор, хромированные детали. Плёнку режем на своём плоттере.</p></div><span class="go">ПОДРОБНЕЕ ›</span></a>
   </div>
+ </div>
 </section>
 
-<section id="warranty">
-  <div class="wrap">
-    <div class="head reveal">
-      <h2 class="serif">Гарантия <em>в цифрах</em></h2>
-      <p>Отвечаем за результат. На кузове плёнку ножом не режем — ЛКП остаётся целым.</p>
-    </div>
-    <div class="warr">
-      <div class="w reveal"><div class="n">6<small>мес</small></div><p>оклейка под такси</p></div>
-      <div class="w reveal"><div class="n">3<small>года</small></div><p>виниловая плёнка</p></div>
-      <div class="w reveal"><div class="n">5<small>лет</small></div><p>PPF — зоны риска и элементы</p></div>
-      <div class="w reveal"><div class="n">8<small>лет</small></div><p>полная оклейка кузова PPF</p></div>
-    </div>
-    <div class="steps reveal" style="margin-top:70px">
-      <div class="step"><div class="k">01</div><h4>Заявка</h4><p>Пишете в WhatsApp или Telegram, присылаете фото и модель авто.</p></div>
-      <div class="step"><div class="k">02</div><h4>Расчёт</h4><p>Называем цену и сроки, подбираем плёнку под задачу и бюджет.</p></div>
-      <div class="step"><div class="k">03</div><h4>Работа</h4><p>Мойка, подготовка, оклейка в чистом боксе. Такси — 1 день, PPF — 3 дня.</p></div>
-      <div class="step"><div class="k">04</div><h4>Выдача</h4><p>Проверяете результат, получаете гарантию и рекомендации по уходу.</p></div>
-    </div>
+<!-- COLOR -->
+<section id="color" style="background:var(--bg2)">
+ <div class="wrap">
+  <span class="tag">BUNKER Color PET</span>
+  <h2 class="h sec-title">Цвет, который <span class="grad">меняет машину</span></h2>
+  <p class="sec-sub">Четыре финиша на любой вкус. Смена цвета без покраски: заводская краска остаётся под плёнкой, а при снятии плёнки машина возвращается к родному цвету.</p>
+  <div class="finish">
+   <div class="fin"><div class="chip" style="background:linear-gradient(135deg,#ff4b4b,#8a0000 60%,#ff9b9b)"></div><h3>Глянец</h3><p>Глубокий блеск, как у свежей краски</p></div>
+   <div class="fin"><div class="chip" style="background:linear-gradient(135deg,#4f6d8a,#2c3e50)"></div><h3>Сатин</h3><p>Мягкий шёлковый блеск</p></div>
+   <div class="fin"><div class="chip" style="background:#3a3a3c"></div><h3>Мат</h3><p>Строгий вид без бликов</p></div>
+   <div class="fin"><div class="chip" style="background:linear-gradient(135deg,#7b2ff7,#00c2a8,#f7a300)"></div><h3>Хамелеон</h3><p>Цвет меняется от угла обзора</p></div>
   </div>
+  <div class="palette">
+   <div class="col"><div style="background:linear-gradient(135deg,#222,#000 60%,#444)"></div><span>Чёрный<small>глянец</small></span></div>
+   <div class="col"><div style="background:linear-gradient(135deg,#fff,#dcdcdc)"></div><span>Белый<small>глянец</small></span></div>
+   <div class="col"><div style="background:#7d8085"></div><span>Серый<small>сатин</small></span></div>
+   <div class="col"><div style="background:linear-gradient(135deg,#c1121f,#6a040f)"></div><span>Красный<small>глянец</small></span></div>
+   <div class="col"><div style="background:#1f3b5a"></div><span>Синий<small>сатин</small></span></div>
+   <div class="col"><div style="background:linear-gradient(135deg,#5b2a86,#1b998b,#e0a100)"></div><span>Хамелеон<small>спецэффект</small></span></div>
+  </div>
+  <p class="note">Цвета на экране примерные. Актуальная палитра и наличие — у менеджера в WhatsApp или Telegram.</p>
+ </div>
 </section>
 
-<section id="film" style="padding-top:20px">
-  <div class="wrap">
-    <div class="film reveal">
-      <div>
-        <span class="mono">Для студий и дилеров</span>
-        <h2 class="serif">Плёнка <em style="color:var(--orange)">BUNKER</em> PET Vinyl — рулонами</h2>
-        <p>Поставляем установочным центрам, дилерам, оптовикам и частным клиентам по всей России.</p>
-        <a class="btn btn-o" href="https://t.me/BUNKER_MOSKOW" target="_blank" rel="noopener">Запросить прайс</a>
-      </div>
-      <div class="roll">
-        <div>Формат рулона <span>1,52 × 17 м</span></div>
-        <div>Розница <span>от 1 рулона</span></div>
-        <div>Опт <span>от 4 рулонов</span></div>
-        <div>Предзаказ <span>от 10 рулонов</span></div>
-      </div>
-    </div>
+<!-- SPECS + FAQ -->
+<section id="specs">
+ <div class="wrap">
+  <span class="tag">Технические характеристики</span>
+  <h2 class="h sec-title">Стандарт <span class="grad">BUNKER PET</span></h2>
+  <div class="spec-grid">
+   <table>
+    <tr><td>Материал</td><td>PET Vinyl Film</td></tr>
+    <tr><td>Ширина рулона</td><td>1,52 м</td></tr>
+    <tr><td>Длина рулона</td><td>17 м</td></tr>
+    <tr><td>Площадь рулона</td><td>25,84 м²</td></tr>
+    <tr><td>Финиши</td><td>Глянец, сатин, мат, хамелеон</td></tr>
+    <tr><td>Гарантия при установке в BUNKER</td><td>3 года</td></tr>
+    <tr><td>Продажа</td><td>Розница · опт от 4 · предзаказ от 10</td></tr>
+    <tr><td>Доставка</td><td>По всей России</td></tr>
+   </table>
+   <div class="faq">
+    <details open><summary>Сколько рулонов нужно на одну машину?</summary><p>Длина 17 м рассчитана на оклейку легкового автомобиля. Для кроссовера или внедорожника пришлите марку и модель — посчитаем точно.</p></details>
+    <details><summary>Кому вы продаёте плёнку?</summary><p>Установочным центрам, дилерам, оптовикам и частным клиентам. Цена зависит от количества: розница, опт от 4 рулонов, предзаказ от 10.</p></details>
+    <details><summary>Как получить прайс?</summary><p>Напишите в WhatsApp +7 930 947-74-43 или в Telegram @BUNKER_MOSKOW. Пришлём цены, палитру и сроки отгрузки.</p></details>
+    <details><summary>Можно ли сразу оклеить машину у вас?</summary><p>Да. Студия BUNKER в Москве, м. Бабушкинская. Полная оклейка винилом — от 80 000 ₽, хамелеон — от 120 000 ₽.</p></details>
+   </div>
   </div>
+ </div>
 </section>
 
-<section id="contacts" style="padding-top:20px">
-  <div class="wrap">
-    <div class="contact">
-      <div class="big reveal">
-        <h2 class="serif">Приезжайте <em>на осмотр</em></h2>
-        <p>Посмотрим машину, подберём плёнку и посчитаем точную стоимость.</p>
-        <a class="btn btn-o" href="https://wa.me/79309477443" target="_blank" rel="noopener">Написать в WhatsApp</a>
-      </div>
-      <div class="ch reveal">
-        <a href="https://wa.me/79309477443" target="_blank" rel="noopener"><div><div class="t">Телефон / WhatsApp</div><div class="v">+7 930 947-74-43</div></div><span class="arr">↗</span></a>
-        <a href="https://t.me/BUNKER_MOSKOW" target="_blank" rel="noopener"><div><div class="t">Telegram</div><div class="v">@BUNKER_MOSKOW</div></div><span class="arr">↗</span></a>
-        <a href="https://instagram.com/okleyka_bunker" target="_blank" rel="noopener"><div><div class="t">Instagram</div><div class="v">@okleyka_bunker</div></div><span class="arr">↗</span></a>
-        <a href="https://yandex.ru/maps/?text=Москва, Староватутинский проезд 10с2" target="_blank" rel="noopener"><div><div class="t">Адрес · ежедневно 10:00–22:00</div><div class="v">Староватутинский пр-д, 10с2</div></div><span class="arr">↗</span></a>
-      </div>
-    </div>
+<!-- DEALER -->
+<section id="dealer" class="dealer">
+ <div class="wrap">
+  <span class="tag">Партнёрам</span>
+  <h2 class="h sec-title">Станьте <span class="grad">дилером BUNKER</span></h2>
+  <p class="sec-sub">Работаем с оклеечными студиями и магазинами по всей России. Чем больше объём — тем ниже цена за рулон.</p>
+  <div class="who"><span>Установочные центры</span><span>Дилеры</span><span>Оптовики</span><span>Частные мастера</span></div>
+  <div class="tiers">
+   <div class="tier"><b>1+</b><h3>Розница</h3><p>Один рулон для своей машины или пробы материала.</p></div>
+   <div class="tier hot"><b>4+</b><h3>Опт</h3><p>Оптовая цена для студий и мастеров от 4 рулонов.</p></div>
+   <div class="tier"><b>10+</b><h3>Предзаказ</h3><p>Нужные цвета под заказ от 10 рулонов — лучшая цена.</p></div>
   </div>
+  <a href="https://t.me/BUNKER_MOSKOW" class="btn btn-acc">Запросить оптовый прайс ›</a>
+ </div>
+</section>
+
+<!-- STUDIO -->
+<section id="studio">
+ <div class="wrap studio">
+  <div>
+   <span class="tag">Установка</span>
+   <h2 class="h sec-title">Студия <span class="grad">BUNKER</span> в Москве</h2>
+   <p class="sec-sub" style="margin-bottom:0">Клеим все виды плёнок: винил, PET, полиуретан PPF, тонировку. Не режем ножом по краске. Работаем ежедневно с 10:00 до 22:00.</p>
+   <div class="warr">
+    <div><b>8 лет</b><span>полная оклейка PPF</span></div>
+    <div><b>5 лет</b><span>PPF зоны риска и элементы</span></div>
+    <div><b>3 года</b><span>виниловая плёнка</span></div>
+    <div><b>1 день</b><span>оклейка под такси</span></div>
+   </div>
+   <a href="/studio/" class="btn btn-out">Все услуги и цены студии ›</a>
+  </div>
+  <div class="box">
+   <ul>
+    <li>Полная оклейка винилом — от 80 000 ₽</li>
+    <li>PPF зоны риска — седан от 45 000 ₽</li>
+    <li>PPF полный кузов — седан от 160 000 ₽</li>
+    <li>Тонировка задней полусферы — от 5 000 ₽</li>
+    <li>Крыша и зеркала в виниле — 15 000 ₽</li>
+    <li>Антихром — от 25 000 ₽</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<!-- TALK -->
+<section id="talk" style="background:var(--bg2)">
+ <div class="wrap talk">
+  <div>
+   <span class="tag">Связаться</span>
+   <h2 class="h sec-title">Поговорить <span class="grad">со специалистом</span></h2>
+   <p class="sec-sub">Оставьте заявку — ответим в WhatsApp, пришлём прайс и палитру.</p>
+   <div class="contacts" id="contacts">
+    <a href="https://wa.me/79309477443"><svg viewBox="0 0 24 24"><path d="M5 19l1.3-3.8A8 8 0 1 1 9 18.5z"/></svg><div><small>WhatsApp / телефон</small>+7 930 947-74-43</div></a>
+    <a href="https://t.me/BUNKER_MOSKOW"><svg viewBox="0 0 24 24"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z"/></svg><div><small>Telegram</small>@BUNKER_MOSKOW</div></a>
+    <a href="https://instagram.com/okleyka_bunker"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg><div><small>Instagram</small>@okleyka_bunker</div></a>
+    <a href="https://yandex.ru/maps/?text=Москва,%20Староватутинский%20проезд%2010с2"><svg viewBox="0 0 24 24"><path d="M12 21s7-6 7-12a7 7 0 0 0-14 0c0 6 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg><div><small>Адрес · ежедневно 10:00–22:00</small>Москва, Староватутинский пр-д, 10с2 · м. Бабушкинская</div></a>
+   </div>
+  </div>
+  <form id="f" onsubmit="event.preventDefault()">
+   <input id="n" placeholder="Ваше имя">
+   <input id="c" placeholder="Город">
+   <select id="w">
+    <option>Хочу купить рулоны PET</option>
+    <option>Хочу стать дилером</option>
+    <option>Хочу оклеить машину в студии</option>
+   </select>
+   <input id="q" type="number" min="1" placeholder="Сколько рулонов (необязательно)">
+   <textarea id="m" rows="3" placeholder="Цвет, финиш, марка авто…"></textarea>
+   <a id="send" class="btn btn-acc" style="justify-content:center" href="https://wa.me/79309477443">Отправить в WhatsApp ›</a>
+  </form>
+ </div>
 </section>
 
 <footer>
-  <div class="wrap"><span>© 2026 BUNKER · okleyka_bunker</span><span>Москва, м. Бабушкинская</span></div>
+ <div class="wrap">
+  <div class="fgrid">
+   <div>
+    <div class="logo" style="margin-bottom:14px"><div class="logo-mark">B</div><div class="logo-txt">BUNKER<small>FILM · MOSCOW</small></div></div>
+    <ul><li>Плёнка PET Vinyl рулонами по всей России и оклейка авто в Москве.</li><li><a href="https://wa.me/79309477443">+7 930 947-74-43</a></li></ul>
+   </div>
+   <div><h4>Продукция</h4><ul><li><a href="#color">PET Color Vinyl</a></li><li><a href="#studio">Полиуретан PPF</a></li><li><a href="#studio">Тонировка</a></li><li><a href="#studio">Плёнка для фар</a></li><li><a href="#studio">Карбон</a></li></ul></div>
+   <div><h4>Партнёрам</h4><ul><li><a href="#dealer">Стать дилером</a></li><li><a href="#dealer">Оптовый прайс</a></li><li><a href="#specs">Характеристики</a></li><li><a href="#specs">Вопросы и ответы</a></li></ul></div>
+   <div><h4>Быстрые ссылки</h4><ul><li><a href="/studio/">Студия оклейки</a></li><li><a href="https://t.me/BUNKER_MOSKOW">Telegram</a></li><li><a href="https://instagram.com/okleyka_bunker">Instagram</a></li><li><a href="#contacts">Контакты</a></li></ul></div>
+  </div>
+  <div class="copy"><span>© 2026 BUNKER. Все права защищены.</span><span>Москва · Староватутинский пр-д, 10с2</span></div>
+ </div>
 </footer>
 
-<a class="fab" href="https://wa.me/79309477443" target="_blank" rel="noopener" aria-label="WhatsApp">
-  <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.3.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.6-.1 1.2z"/></svg>
-</a>
+<a class="float" href="https://wa.me/79309477443" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg></a>
 
 <script>
-document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
-  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
-  document.querySelectorAll('.pane').forEach(x=>x.classList.remove('on'));
-  t.classList.add('on');document.getElementById(t.dataset.t).classList.add('on');
-}));
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+(function(){
+ var ids=['n','c','w','q','m'],a=document.getElementById('send');
+ function upd(){
+  var v=function(i){return (document.getElementById(i).value||'').trim()};
+  var t='Здравствуйте! '+v('w')+'.';
+  if(v('n'))t+='\nИмя: '+v('n');
+  if(v('c'))t+='\nГород: '+v('c');
+  if(v('q'))t+='\nРулонов: '+v('q');
+  if(v('m'))t+='\n'+v('m');
+  a.href='https://wa.me/79309477443?text='+encodeURIComponent(t);
+ }
+ ids.forEach(function(i){var e=document.getElementById(i);e.addEventListener('input',upd);e.addEventListener('change',upd)});
+ upd();
+})();
 </script>
 </body>
 </html>
